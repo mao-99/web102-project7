@@ -1,0 +1,15 @@
+.sideNav{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    align-items: left;
+    position: fixed;
+    left: 0;
+    background-color: #3f3f3f;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.navLink{
+    margin: 1rem auto;
+}
