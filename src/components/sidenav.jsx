@@ -1,12 +1,13 @@
 import styles from './sidenav.module.css';
+import { Link } from 'react-router-dom';
 export default function SideNav(){
 
     return (
         <>
             <div className={styles.sideNav}>
-                <button className={styles.navLink}>Home</button>
-                <button className={styles.navLink}>Create Crewmate</button>
-                <button className={styles.navLink}>Crewmate Gallery</button>
+                <Link to='/'  className={styles.navLink}>Home</Link>
+                <Link to='/create'  className={styles.navLink}>Create Crewmate</Link>
+                <Link to='/gallery'  className={styles.navLink}>Crewmate Gallery</Link>
             </div>
         </>
     )

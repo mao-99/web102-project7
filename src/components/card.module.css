@@ -1,0 +1,22 @@
+.cardImage{
+    height: 189px;
+    width: 260px;
+    margin: 0.5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 402px;
+    width: 372px;
+    padding: 0.25rem;
+    border: 3px solid transparent;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px #646cff;;
+    background-color: #3f3f3f;
+    color: #3f3f3f;
+}
+h2,h3{
+    padding: 0.2rem;
+}
